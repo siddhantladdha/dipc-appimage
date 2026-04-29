@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 #export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
 
 # Deploy dependencies
-quick-sharun $(which dipc)
+quick-sharun .cargo/bin/dipc
 
 # Additional changes can be done in between here
 
