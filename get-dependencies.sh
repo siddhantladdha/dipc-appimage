@@ -17,6 +17,7 @@ pacman -Syu --noconfirm gcc-libs cargo
 
 # If the application needs to be manually built that has to be done down here
 cargo install dipc
+/github/home/.cargo/bin/dipc --version
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
 #
 # if [ "${DEVEL_RELEASE-}" = 1 ]; then
