@@ -11,7 +11,8 @@ export ICON=./dipc.svg
 export DESKTOP=./dipc.desktop
 
 export PATH=$PATH:$HOME/.cargo/bin
-
+echo $PATH
+echo $(which dipc)
 # Deploy dependencies
 quick-sharun /github/home/.cargo/bin/dipc
 
