@@ -7,7 +7,7 @@ VERSION=1.2.0
 export ARCH VERSION
 export OUTPATH=./dist
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-#export ICON=PATH_OR_URL_TO_ICON
+export ICON=./dipc.svg
 export DESKTOP=./dipc.desktop
 
 # Deploy dependencies
