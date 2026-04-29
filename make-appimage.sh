@@ -10,8 +10,9 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=./dipc.svg
 export DESKTOP=./dipc.desktop
 
+export PATH=$PATH:$HOME/.cargo/bin
 # Deploy dependencies
-quick-sharun .cargo/bin/dipc
+quick-sharun dipc
 
 # Additional changes can be done in between here
 
