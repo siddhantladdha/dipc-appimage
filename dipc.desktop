@@ -4,7 +4,7 @@ Name=Dipc
 GenericName=Text Editor
 Comment=Edit text files in a terminal
 Icon=./dipc.svg
-
+StartupWMClass=dipc
 Type=Application
 Categories=Utility;TextEditor;Development;
 Keywords=text;editor;syntax;terminal;
